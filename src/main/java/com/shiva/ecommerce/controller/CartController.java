@@ -62,6 +62,7 @@ public class CartController {
             totalPrice += c.getProduct().getPrice() * c.getCount();
         model.addAttribute("total", totalPrice);
         model.addAttribute("cart", cartitems);
+        model.addAttribute("user_id", user.getId());
         return "cart";
     }
 

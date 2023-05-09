@@ -142,9 +142,7 @@ public class AdminController {
         productService.removeProductById(id);
         return "redirect:/admin/products";
     }
-
-
-
+    
 }
 
 
