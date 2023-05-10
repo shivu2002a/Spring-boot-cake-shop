@@ -84,11 +84,11 @@
 			<artifactId>miniapp-sdk-client</artifactId>
 			<version>1.0.2-SNAPSHOT</version>
 		</dependency> -->
-		<!-- <dependency>
-			<groupId>com.paytm</groupId>
+		<dependency>
+			<groupId>com.paytm.pg</groupId>
 			<artifactId>paytm-checksum</artifactId>
-			<version>1.2.0</version>
-		</dependency> -->
+			<version>1.2.1</version>
+		</dependency>
 	</dependencies>
 	<repositories>
 		<repository>

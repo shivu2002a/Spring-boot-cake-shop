@@ -141,9 +141,11 @@
                                     <span><strong>₹<span th:text="${total}"></span></strong></span>
                                 </li>
                             </ul>
-
-                            <a th:href="@{/checkout}" h class="btn btn-primary btn-block waves-effect waves-light">go to
-                                checkout</a>
+                            <form th:action="@{/checkout}" method="Post">
+                                <input type="hidden" name="payable_amount" th:value="${total}">
+                                <input type="hidden" name="user_id" th:value="${user_id}">
+                                <button type="submit" class="btn btn-primary btn-block waves-effect waves-light">Place order</a>
+                            </form>
 
                         </div>
                     </div>
