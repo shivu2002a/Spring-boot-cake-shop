@@ -96,3 +96,885 @@ Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection wa
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
 	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
 	... 92 more
+2023-05-10 11:44:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:44:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:46:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_, order0_.orderdate as orderdat2_2_, order0_.price_paid as price_pa3_2_, order0_.user_id as user_id4_2_ from [*]order order0_ left outer join users user1_ on order0_.user_id=user1_.id where user1_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_, order0_.orderdate as orderdat2_2_, order0_.price_paid as price_pa3_2_, order0_.user_id as user_id4_2_ from order order0_ left outer join users user1_ on order0_.user_id=user1_.id where user1_.id=? [42001-214]
+2023-05-10 11:46:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_, order0_.orderdate as orderdat2_2_, order0_.price_paid as price_pa3_2_, order0_.user_id as user_id4_2_ from [*]order order0_ left outer join users user1_ on order0_.user_id=user1_.id where user1_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_, order0_.orderdate as orderdat2_2_, order0_.price_paid as price_pa3_2_, order0_.user_id as user_id4_2_ from order order0_ left outer join users user1_ on order0_.user_id=user1_.id where user1_.id=? [42001-214]
+2023-05-10 11:48:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:48:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:53:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:53:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:53:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:53:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:53:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:53:11 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:53:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:53:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:55:55 jdbc[15]: null
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:190)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:132)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$logDataSources$1(H2ConsoleAutoConfiguration.java:86)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources(H2ConsoleAutoConfiguration.java:92)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:68)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.withThreadContextClassLoader(H2ConsoleAutoConfiguration.java:77)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.shiva.ecommerce.ECommerceApplication.main(ECommerceApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 92 more
+2023-05-10 11:55:55 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:55:55 jdbc[15]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:55:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:55:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:56:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:56:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:56:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 11:57:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:57:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:57:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:57:36 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:57:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:57:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:57:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 11:57:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 11:57:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 11:57:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 11:58:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 11:58:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:01:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:20 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:37 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:45 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:04:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:04:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:04:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:05:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:05:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:06:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:06:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:11:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:11:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:11:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:11:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:11:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:11:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:12:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:14:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:14:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:15:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "insert into [*]order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?)"; expected "identifier"; SQL statement:
+insert into order (orderdate, price_paid, user_id, id) values (?, ?, ?, ?) [42001-214]
+2023-05-10 12:16:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:12 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:16:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:16:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:29 jdbc[16]: java.lang.Exception: Open Stack Trace
+	at org.h2.util.CloseWatcher.register(CloseWatcher.java:85)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:133)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:808)
+	at org.h2.server.web.WebApp.login(WebApp.java:1033)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:190)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:132)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$logDataSources$1(H2ConsoleAutoConfiguration.java:86)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources(H2ConsoleAutoConfiguration.java:92)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:68)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.withThreadContextClassLoader(H2ConsoleAutoConfiguration.java:77)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:68)
+	at jdk.internal.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.shiva.ecommerce.ECommerceApplication.main(ECommerceApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 91 more
+2023-05-10 12:19:29 jdbc[16]: java.lang.Exception: Open Stack Trace
+	at org.h2.util.CloseWatcher.register(CloseWatcher.java:85)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:133)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:288)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:808)
+	at org.h2.server.web.WebApp.login(WebApp.java:1033)
+	at org.h2.server.web.WebApp.process(WebApp.java:226)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:176)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:555)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:96)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.client.web.OAuth2AuthorizationRequestRedirectFilter.doFilterInternal(OAuth2AuthorizationRequestRedirectFilter.java:178)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+org.h2.message.DbException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.get(DbException.java:223)
+	at org.h2.message.DbException.get(DbException.java:199)
+	at org.h2.message.DbException.get(DbException.java:188)
+	at org.h2.jdbc.JdbcConnection.closeOld(JdbcConnection.java:190)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:132)
+	at org.h2.Driver.connect(Driver.java:59)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$logDataSources$1(H2ConsoleAutoConfiguration.java:86)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:395)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.logDataSources(H2ConsoleAutoConfiguration.java:92)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.lambda$h2Console$0(H2ConsoleAutoConfiguration.java:68)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.withThreadContextClassLoader(H2ConsoleAutoConfiguration.java:77)
+	at org.springframework.boot.autoconfigure.h2.H2ConsoleAutoConfiguration.h2Console(H2ConsoleAutoConfiguration.java:68)
+	at jdk.internal.reflect.GeneratedMethodAccessor111.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:638)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:213)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.getOrderedBeansOfType(ServletContextInitializerBeans.java:204)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.addServletContextInitializerBeans(ServletContextInitializerBeans.java:98)
+	at org.springframework.boot.web.servlet.ServletContextInitializerBeans.<init>(ServletContextInitializerBeans.java:86)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getServletContextInitializerBeans(ServletWebServerApplicationContext.java:262)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.selfInitialize(ServletWebServerApplicationContext.java:236)
+	at org.springframework.boot.web.embedded.tomcat.TomcatStarter.onStartup(TomcatStarter.java:53)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4936)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:917)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Tomcat.start(Tomcat.java:486)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.initialize(TomcatWebServer.java:123)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.<init>(TomcatWebServer.java:104)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getTomcatWebServer(TomcatServletWebServerFactory.java:481)
+	at org.springframework.boot.web.embedded.tomcat.TomcatServletWebServerFactory.getWebServer(TomcatServletWebServerFactory.java:211)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:184)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:577)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at com.shiva.ecommerce.ECommerceApplication.main(ECommerceApplication.java:10)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.h2.jdbc.JdbcSQLNonTransientConnectionException: The connection was not closed by the application and is garbage collected [90018-214]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:678)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:477)
+	... 91 more
+2023-05-10 12:19:29 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:19:29 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:19:43 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:46 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:46 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:47 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:47 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:19:47 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:20:06 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:20:06 jdbc[16]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:20:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:20:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:22:13 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from [*]order order0_ where order0_.id=?"; expected "identifier"; SQL statement:
+select order0_.id as id1_2_0_, order0_.orderdate as orderdat2_2_0_, order0_.price_paid as price_pa3_2_0_, order0_.user_id as user_id4_2_0_ from order order0_ where order0_.id=? [42001-214]
+2023-05-10 12:25:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:25:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:26:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, userid integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, userid integer, primary key (id)) [42001-214]
+2023-05-10 12:26:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FK1cfx132flncrtsq2b0vv21u9j foreign key (userid) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FK1cfx132flncrtsq2b0vv21u9j foreign key (userid) references users [42001-214]
+2023-05-10 12:27:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, userid integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, userid integer, primary key (id)) [42001-214]
+2023-05-10 12:27:18 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FK1cfx132flncrtsq2b0vv21u9j foreign key (userid) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FK1cfx132flncrtsq2b0vv21u9j foreign key (userid) references users [42001-214]
+2023-05-10 12:27:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:27:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:28:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:28:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:28:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:29:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:29:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:33:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:33:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:33:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:33:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:34:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:34:31 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:35:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:35:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:36:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:36:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]
+2023-05-10 12:37:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "create table [*]order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id))"; expected "identifier"; SQL statement:
+create table order (id integer not null, orderdate date, price_paid double, user_id integer, primary key (id)) [42001-214]
+2023-05-10 12:37:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "alter table [*]order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users"; expected "identifier"; SQL statement:
+alter table order add constraint FKs9p0s8b1nh7m2no87xxteu83x foreign key (user_id) references users [42001-214]

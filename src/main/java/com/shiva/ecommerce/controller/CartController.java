@@ -1,5 +1,6 @@
 package com.shiva.ecommerce.controller;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
@@ -12,14 +13,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.shiva.ecommerce.model.CartItem;
 import com.shiva.ecommerce.model.CustomUserDetail;
+import com.shiva.ecommerce.model.Order;
 import com.shiva.ecommerce.model.User;
 import com.shiva.ecommerce.repository.UserRepository;
 import com.shiva.ecommerce.service.CartItemService;
+import com.shiva.ecommerce.service.OrderService;
 import com.shiva.ecommerce.service.ProductService;
 
 @Controller
@@ -33,6 +34,9 @@ public class CartController {
 
     @Autowired
     UserRepository userRepo;
+
+    @Autowired
+    OrderService orderService;
 
     @GetMapping("/addToCart/{id}")
     public String addToCart(@PathVariable long id, @AuthenticationPrincipal OAuth2User ouser) {
@@ -72,6 +76,7 @@ public class CartController {
         return "redirect:/cart";
     }
 
+
     private User getUser(@AuthenticationPrincipal OAuth2User auth2user) {
         String email;
         if (auth2user == null) {
@@ -83,6 +88,14 @@ public class CartController {
         }
         User user = userRepo.findUserByEmail(email).get();
         return user;
+    }
+
+    @GetMapping("/orders")
+    public String getOrders(@AuthenticationPrincipal OAuth2User cuser, Model model){
+        int user_id = getUser(cuser).getId();
+        List<Order> orders = orderService.getAllOrdersByUser(user_id);
+        model.addAttribute("orders", orders);
+        return "orders";
     }
 
 }

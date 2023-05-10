@@ -1,5 +1,6 @@
 package com.shiva.ecommerce.controller;
 
+import java.time.LocalDate;
 import java.util.Map;
 import java.util.TreeMap;
 
@@ -15,8 +16,11 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.paytm.pg.merchant.PaytmChecksum;
+import com.shiva.ecommerce.model.Order;
 import com.shiva.ecommerce.model.PaytmDetails;
+import com.shiva.ecommerce.model.User;
 import com.shiva.ecommerce.repository.UserRepository;
+import com.shiva.ecommerce.service.OrderService;
 
 @Controller
 public class PaymentController {
@@ -29,7 +33,10 @@ public class PaymentController {
 
     @Autowired
     UserRepository userRepo;
-    
+
+    @Autowired
+    OrderService orderService;
+
     @PostMapping("/checkout")
     public ModelAndView getCheckout(@RequestBody MultiValueMap<String, String> body) throws Exception {
         float totalPrice = Float.valueOf(body.getFirst("payable_amount"));
@@ -66,7 +73,7 @@ public class PaymentController {
         String result;
 
         boolean isValideChecksum = false;
-        System.out.println("RESULT : " + parameters.toString());
+        // System.out.println("RESULT : " + parameters.toString());
         try {
             isValideChecksum = validateCheckSum(parameters, env.getProperty("paytm.payment.sandbox.merchantKey"), paytmChecksum);
             if (isValideChecksum && parameters.containsKey("RESPCODE")) {
@@ -81,9 +88,15 @@ public class PaymentController {
         } catch (Exception e) {
             result = e.toString();
         }
-        model.addAttribute("result",result);
+        model.addAttribute("result", result);
         parameters.remove("CHECKSUMHASH");
         model.addAttribute("parameters", parameters);
+        Order order = new Order();
+        User user = userRepo.findById(Integer.valueOf(parameters.get("CUST_ID"))).get();
+        order.setUser(user);
+        order.setOrderdate(LocalDate.now());
+        order.setPrice_paid(Double.valueOf(parameters.get("TXN_AMOUNT")));
+        orderService.addOrder(order);
         return "orderPlacement";
     }
 
