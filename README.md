@@ -1,4 +1,4 @@
-# Spring-boot-cake-shop
+# Spring-boot-e-commerce
 
 This is a web application built with Spring boot, Hibernate, H3 embedded SQL DB, Maven.
 It includes admins side and users side. Both the authorities can be granted to anyone.
